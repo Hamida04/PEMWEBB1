@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>latihan form HTML</title>
+</head>
+<body>
+    <form name="formulir">
+        <table align="center" cellpedding="15" widht="50%">
+            <thead>
+                <tr bgcolor="pink">
+                    <th colspan="2">FORMULIR</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr bgcolor="pink">
+                    <th colspan="2">
+                        <input type="submit" name="simpan" value="simpan">
+                        <input type="reset" name="batal" value="batal">
+                    </th>
+                </tr>
+            </tfoot>
+                <tr>
+                    <td>NAMA</td>
+                    <td>
+                        <input type="text" name="nama" value="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>password</td>
+                    <td>
+                        <input type="password" name="password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" name="jk" value="L" chaked/> laki-laki
+                        &nbsp;
+                        <input type="radio" name="jk" value="P" /> perempuan
+                    </td>
+                </tr>
+                <tr>
+                    <td>Hbbby</td>
+                    <td>
+                         <input type="checkbox" name="hb" value="Memasak"/>Memasak<br/>
+                         <input type="checkbox" name="hb" value="Membaca" checked />Membaca<br/>
+                         <input type="checkbox" name="hb" value="Mwnulis" checked/>Menulis<br/>
+                         <input type="checkbox" name="hb" value="Olahraga"/>olahraga<br/>
+                    </td>
+                </tr> 
+                <tr>
+                    <td>pendidikan</td>
+                    <td>
+                        <select name="pendidikan">
+                            <option value="">-- piliham pendidikan terkahir --</option>
+                            <option value="SAM">SAM</option>
+                            <option value="D3">D3</option>
+                            <option value="S1"select>S1</option>
+                            <option value="S2">S2</option>
+                            <option value="S3">S3</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Alamat</td>
+                    <td>
+                        <textarea name="alamat" cols="40" rows="10"></textarea>
+                    </td>
+                </tr>
+            </tbody>
+                </tr>
+        </table>
+    </form>
+</body>
+</html>
